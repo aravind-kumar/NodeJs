@@ -26,3 +26,11 @@ user2.decreaseScore(user1);
 
 console.log(user1);
 console.log(user2);
+
+
+newUser.prototype.favFood = "Icecream";
+
+console.log(user1);
+console.log(user2);
+
+ 
