@@ -36,3 +36,11 @@ printingPerson();
 //It sets a timer and calls printing person after 5000 milliseconds
 setTimeout(printingPerson,5000);
 
+
+//In javascript all objects are passed by refference.
+
+var newPerson = person;
+newPerson.name = "Kumar";
+
+console.log(newPerson);
+console.log(person);
